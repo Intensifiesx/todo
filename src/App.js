@@ -10,6 +10,7 @@ function App() {
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
+  const [fileredTodos, setFilteredTodos] = useState([]);
   return (
     <div className="App">
       <header>
